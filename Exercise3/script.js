@@ -1,20 +1,20 @@
 //* 1
 
-function square(num) {
-  return num ** 2;
-}
+// function square(num) {
+//   return num ** 2;
+// }
 
-function processArray(arr, callback) {
-  const result = [];
-  for(let i = 0; i < arr.length; i++){
-    result.push(callback(arr[i]));
-  }
-  return result;
-}
+// function processArray(arr, callback) {
+//   const result = [];
+//   for(let i = 0; i < arr.length; i++){
+//     result.push(callback(arr[i]));
+//   }
+//   return result;
+// }
 
-const numbers = [1, 2, 3, 4, 5];
-const squaredNumbers = processArray(numbers, square);
-console.log(squaredNumbers);
+// const numbers = [1, 2, 3, 4, 5];
+// const squaredNumbers = processArray(numbers, square);
+// console.log(squaredNumbers);
 
 //* 2
 
