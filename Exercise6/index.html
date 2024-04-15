@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-5 border border-1 border-dark p-2">
+      <div class="col-12 bg-info border border-1 border-dark text-center">
+        <h2>Practice JS (P5)</h2>
+      </div>
+      <div class="col-12 border border-1 border-dark m-1">
+        <div class="m-1 border border-1 border-dark">
+          <h5 class="px-1">
+            1. Callback Hell with Mock Database Implement a series of nested
+            asynchronous functions to simulate querying a mock database,
+            processing the data and then outputting the result. Each step should
+            rely on the completion of the previous one.
+            <h6>
+              a. Create a mock database: [{id: 1, name: “sok”}, {id: 2, name;
+              “sao”}, {id: 3, name: “pisey”}]
+            </h6>
+            <h6>
+              b. Write a function that could get user info by its id. Note the
+              user object should return after 2 seconds. If the user is not
+              found, it should return an error.
+            </h6>
+            <h6>
+              c. Write a function that could process the user data by
+              capitalizing the user name. Note, the process data should be
+              execute around 1.5 seconds
+            </h6>
+            <h6>
+              d. Execute and Process: Use example b and c in order. Finally
+              print the processed user data to the console
+            </h6>
+            Note: This exercise should only use a callback function.
+          </h5>
+        </div>
+        <div class="m-1 border border-1 border-dark">
+          <h5 class="px-1">
+            2.Following from the exercise 3, 4 (JS-P5), convert all the readFile
+            and writeFile function to Promise, then use it to complete the
+            process like in exercise 5 (JS-P5). Noted in this exercise, must use
+            .then and catch.
+          </h5>
+        </div>
+        <div class="m-1 border border-1 border-dark">
+          <h5 class="px-1">
+            3.Following from the exercise 3, 4 (JS-P5), convert all the readFile
+            and writeFile function to Promise, then use it to complete the
+            process like in exercise 5 (JS-P5). Noted in this exercise, must use
+            async and await.
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
